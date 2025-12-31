@@ -36,10 +36,10 @@ border-radius: 1rem;
 .navbar-toggler-icon {
   filter: invert(1);
 }
- .name{
+ .name {
     font-size: 80px;
     margin-top: 400px;
-    
+    color: rgb(0, 0, 0);
      animation: slide 1s;
      animation-fill-mode: forwards;
      transition: all 1s;
@@ -47,10 +47,92 @@ border-radius: 1rem;
  }
  @keyframes slide {
     from{margin-top: 400px;}
-    to{    margin-top: 180px;
+    to{    margin-top: 180px;;
 }
  }
  .name span{
     font-size: 30px;
     color: #645858;
  }
+ .name :hover{
+  color: #ade95a;
+ }
+ .round{
+  background-color: #ade95a;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -320px;
+  margin-right: -300px;
+  animation: round 1s forwards;
+box-shadow: 0px 0px 0px #000000;
+}
+ .round2{
+  background-color: #ade95a;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -400px;
+  margin-left: -300px;
+  animation: round2 1s forwards;
+box-shadow: 0px 0px 0px #000000;
+
+ }
+ @keyframes round2 {
+  from{
+  margin-left: -300px;
+box-shadow: 0px 0px 0px #000000;
+
+  }
+  to{
+  margin-left: 400px;
+box-shadow: 0px 0px 100px #ade95a;
+  
+  }
+ }
+ @keyframes round {
+  from{
+  margin-right: -300px;
+box-shadow: 0px 0px 0px #000000;
+
+  }
+  to{
+  margin-right: 400px;
+box-shadow: 0px 0px 100px #ade95a;
+
+  }
+ }
+
+
+ @media  (max-width: 962px) {
+  .round2{
+    display: none;
+  }
+  .round{
+    display: none;
+  }
+  .name{ color: #ffffff;}
+ }
+ /* =======================certificate======================/ */
+
+.card{
+
+  margin-left: 10px;
+}
+.cards{
+  margin-top: 100px;
+}
+.card-1{
+  margin-top: ;
+  animation: card12 1s forwards;
+}
+.card-2{
+  animation: card34 1s forwards;
+}
+.card-3{
+  animation: card12 1s forwards;
+}
+.card-4{
+  animation: card34 1s forwards;
+}
+
