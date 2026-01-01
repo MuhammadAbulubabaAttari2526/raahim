@@ -43,7 +43,7 @@ border-radius: 1rem;
      animation: slide 1s;
      animation-fill-mode: forwards;
      transition: all 1s;
-     text-shadow: 0px 0px 1000px #ade95a;
+     text-shadow: 0px 0px 100px #ade95a;
  }
  @keyframes slide {
     from{margin-top: 400px;}
@@ -102,7 +102,12 @@ box-shadow: 0px 0px 100px #ade95a;
 
   }
  }
-
+ .portfolio{
+  color: #ade95a;
+  position: relative;
+  top: -29rem;
+  display: none;
+ }
 
  @media  (max-width: 962px) {
   .round2{
@@ -113,6 +118,9 @@ box-shadow: 0px 0px 100px #ade95a;
   }
   .name{ color: #ffffff;}
  }
+.portfolio{
+  display: block;
+}
  /* =======================certificate======================/ */
 
 .card{
@@ -148,7 +156,7 @@ box-shadow: 0px 0px 100px #ade95a;
 }
 
 .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover{
-  box-shadow: 0px 0px 30px #ade95a;
+  box-shadow: 0px 0px 30px #c1ff6a;
   transform: scale(1.1);
 
 }
@@ -168,4 +176,18 @@ box-shadow: 0px 0px 100px #ade95a;
   to{
   top: 0rem;
   }
+}
+/* --------------------------contact------------- */
+.contact{
+  max-width: 500px;
+}
+.btn{
+  /* border: 1px solid #000000; */
+  background-color: #172700;
+  color: white;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.btn:hover{
+  background-color: #d5ff9a;
 }
